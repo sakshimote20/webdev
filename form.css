@@ -1,0 +1,21 @@
+h2{
+    text-align:center;
+    background-color:yellow;
+}
+form{
+    line-height:2.5;
+    text-align: left;
+    text-align:justify;
+    background-color:white;
+}
+h4{
+    text-align:center;
+    line-height:0.5;
+    color: black;
+}
+p{
+    line-height:0.2;
+}
+button{
+    background-color:blue;
+}

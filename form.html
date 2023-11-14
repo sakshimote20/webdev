@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    <h2>Welcome to "Sunset Serenity Tours"</h2>
+    <hr>
+    <form action="book_tour">
+    <h3>Passenger Details:</h3>
+    <br>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Enter your full name"/>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" />
+    <br/>
+     <label for="phone">Mobile Number:</label>
+    <input type="tel" id="phone" placeholder="Enter your Mob. number"/>
+    <br>
+    <label for="phone">Emergency Mobile Number:</label>
+    <input type="tel" id="phone" placeholder="Enter your Mob. number"/>
+    <br>
+    <label for="tour date">Tour Date:</label>
+    <input type="date" id="tour date" placeholder="Enter date"/>
+    <br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter your age"/>
+    <br>
+    Select Gender:
+    <div>
+    <input type="radio" id="male" name="gender" value="Male"/>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female"/>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other"/>
+    <label for="other">Other</label>
+    <br>
+    Add child(under 12 years):
+    <input type="checkbox" name="children" id="child" value="child"/>
+    <label for="child">Yes</label>
+    <input type="checkbox" name="children" id="child" value="child"/>
+    <label for="child">No</label>
+    <br>
+    If Yes Enter Child Details:
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Enter full name"/>
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter age"/>
+    <br>
+</div>
+Select your dream state to travel :
+<select name="state" id="state">
+    <option>select your option</option>
+    <option value="Mharashtra">Maharashtra</option>
+    <option value="Assam">Assam</option> 
+    <option value="kerala">Kerala</option>
+    <option value="Goa">Goa</option>  
+</select>
+<br>
+<button>Confirm Registration</button>
+<p>You will get the details of the tour on your registerd email</p>
+<h4>We Wish You The "Happy Journey"</h4>
+
+
+
+    </form>
+    
+
+</body>
+</html>
